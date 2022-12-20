@@ -1,0 +1,25 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "description": "Simple prettier configuration to reuse through different projects",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edinkahvedzic/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Edin Kahvedzic",
+  "homepage": "https://edinkahvedzic.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
